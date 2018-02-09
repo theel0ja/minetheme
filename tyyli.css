@@ -1,0 +1,76 @@
+/* Ladataan fontit */
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500|Josefin+Sans:300,400,600|Asap:400,400italic);
+
+/* Perusosat */
+body {
+        background: url('kuvat/tausta.jpg') no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+
+#yla {
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#valikko {
+	width: 70%;
+	background: url('kuvat/dirt.jpg');
+	margin: 0px auto;
+	padding: 8px;
+	border: 1px solid #ccc;
+}
+
+#keski {
+	width: 75%;
+	background: url('kuvat/sand.jpg');
+	margin: 10px auto;
+	padding: 3px;
+	border: 1px solid #ccc;
+}
+
+#ala {
+	text-align: center;
+	color: orange;
+}
+
+a {
+	color: blue;
+}
+#ala a {
+	color: orange;
+	text-decoration: none;
+}
+
+#yla .ip {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	color: red;
+}
+
+#yla h1 {
+	font-family: 'Ubuntu', sans-serif;
+	color: cyan;
+}
+
+/* navigaatio */
+.valikko {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+} 
+
+.valikko li {
+	padding-right: 10px;
+	display: inline;
+}
+
+#valikko a{
+	padding: 8px;
+	text-decoration: none;
+	color: #003366;
+	font-size: 20px;
+}
